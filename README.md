@@ -8,7 +8,9 @@ made by: Pwais &amp; Adiss
 Before Using: You must edit script path in config.lua
 
 - Create Json File: 
-    { exports.adpw_jsondb:createJsonDB('NAME') }
+    { 
+    exports.adpw_jsondb:createJsonDB('NAME') 
+    }
 
 
 - Delete Json File:
