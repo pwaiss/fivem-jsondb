@@ -4,7 +4,6 @@ made by: Pwais &amp; Adiss
 
 <!-- JSON DATABASE EXAMPLE USING -->
 
-<!-- 
 
 Before Using: You must edit script path in config.lua
 
@@ -29,7 +28,7 @@ Before Using: You must edit script path in config.lua
 
 - Edit Data in Json File 
 
-    exports.adpw_jsondb:editJsonDB('NAME', {
+    " exports.adpw_jsondb:editJsonDB('NAME', {
         value = {
             first = 'adiss',
             second = 'esek'
@@ -39,7 +38,7 @@ Before Using: You must edit script path in config.lua
         req = {
             pwais = "father"
         }
-    })
+    }) "
 
     VALUE: data to change
     REQ: Data that should be in the found data
@@ -50,7 +49,7 @@ Before Using: You must edit script path in config.lua
 
 - Getting all ARRAY in JSON File
 
-    exports.adpw_jsondb:getJsonDB('NAME')
+    " exports.adpw_jsondb:getJsonDB('NAME') "
 
 
 
@@ -58,11 +57,11 @@ Before Using: You must edit script path in config.lua
 
 - Find table in JSON File
 
-    exports.adpw_jsondb:findTableInJsonDB('NAME', {
+    " exports.adpw_jsondb:findTableInJsonDB('NAME', {
         req = {
             realdeveloper = "adiss"
         }
-    })
+    }) "
 
     REQ: Data that should be in the found data
 
