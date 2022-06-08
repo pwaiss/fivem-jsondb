@@ -41,7 +41,7 @@ Before Using: You must edit script path in config.lua
 
 - Getting all ARRAY in JSON File
 
-    " exports.adpw_jsondb:getJsonDB('NAME') "
+    exports.adpw_jsondb:getJsonDB('NAME')
 
 
 
@@ -49,11 +49,11 @@ Before Using: You must edit script path in config.lua
 
 - Find table in JSON File
 
-    " exports.adpw_jsondb:findTableInJsonDB('NAME', {
+    exports.adpw_jsondb:findTableInJsonDB('NAME', {
         req = {
             realdeveloper = "adiss"
         }
-    }) "
+    })
 
     REQ: Data that should be in the found data
 
