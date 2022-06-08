@@ -28,17 +28,9 @@ Before Using: You must edit script path in config.lua
 
 - Edit Data in Json File 
 
-    " exports.adpw_jsondb:editJsonDB('NAME', {
-        value = {
-            first = 'adiss',
-            second = 'esek'
-        },
-
-
-        req = {
-            pwais = "father"
-        }
-    }) "
+    exports.adpw_jsondb:editJsonDB('NAME', {
+        value = { first = 'adiss', second = 'esek' }, req = { pwais = "father" }
+    })
 
     VALUE: data to change
     REQ: Data that should be in the found data
@@ -81,4 +73,3 @@ Before Using: You must edit script path in config.lua
     REQ: Data that should be in the found data 
     
     
--->
