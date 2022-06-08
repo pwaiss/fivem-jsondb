@@ -1,5 +1,4 @@
 function createJsonDB(dbName)
-    -- json dosyası oluştur
     local f = io.open(Config.ScriptPath .. 'SQLS/' .. dbName .. ".json", "w")
 	f:write("[]")
 	f:close()
@@ -94,8 +93,4 @@ exports('editJsonDB', editJsonDB)
 exports('getJsonDB', getJsonDB)
 exports('findTableInJsonNDB', findTableInJSONDB)
 exports('deleteTableInJsonDB', deleteTableInJsonDB)
-
--- for coords example: 
--- selam = findTableInJsonDB('adiss', {req = { id = "selamalikim"}})
--- print(json.encode(selam[1].coords))
 
